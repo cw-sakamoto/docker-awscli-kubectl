@@ -1,0 +1,1 @@
+include awscli, kubectl container
