@@ -4,7 +4,7 @@ MAINTAINER Ryo Sakamoto <sakamoto@chatwork.com>
 # Disable prompts from apt.
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV AWS_CLI_VERSION 1.14.53
+ENV AWS_CLI_VERSION 1.14.55
 ENV KUBE_VERSION 1.8.4
 ENV TINI_VERSION 0.17.0
 
