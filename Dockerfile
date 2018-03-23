@@ -22,6 +22,6 @@ RUN apt-get update -y \
 
 # Add Tini
 # https://github.com/krallin/tini#using-tini
-ADD https://github.com/krallin/tini/releases/download/v${TINI_VERSION}/tini /tini
-RUN chmod +x /tini
-ENTRYPOINT ["/tini", "--"]
+#ADD https://github.com/krallin/tini/releases/download/v${TINI_VERSION}/tini /tini
+#RUN chmod +x /tini
+#ENTRYPOINT ["/tini", "--"]
